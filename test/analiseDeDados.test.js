@@ -112,7 +112,7 @@ describe('Testes simplificados para a classe AnaliseDeDados', () => {
     expect(analise.calcularPercentil(110)).toBeNull();
   });
 
-  // Testando calcularPercentil com valor válido
+  // Testando calcularPercentil com valor 
   test('calcularPercentil deve retornar o percentil correto', () => {
     expect(analise.calcularPercentil(50)).toBe(3);  // Percentil 50 (mediana)
   });
