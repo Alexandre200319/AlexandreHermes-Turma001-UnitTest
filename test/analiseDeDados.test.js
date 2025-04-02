@@ -77,7 +77,7 @@ describe('Testes simplificados para a classe AnaliseDeDados', () => {
     expect(analise.calcularCorrelacao(outroConjunto)).toBeCloseTo(-1, 14);
   });
 
-  // Testando calcularMedia, Mediana e Moda com dados vazios
+  //testando
   test('calcularMedia deve retornar null para dados vazios', () => {
     analise.limparDados();
     expect(analise.calcularMedia()).toBeNull();
